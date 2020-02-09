@@ -12,9 +12,12 @@ namespace SummarizeTempsLab
             
             if (File.Exists(filePath))
             {
+                Console.WriteLine("Enter the temperature");
+
+                input = Console.ReadLine();
 
                 using (StreamReader sr = File.OpenText(filePath)) 
-                { string line = "enter temperature threshold";
+                { string line = "";
                 
                 while  ((line = sr.ReadLine()) != null)
                     {
