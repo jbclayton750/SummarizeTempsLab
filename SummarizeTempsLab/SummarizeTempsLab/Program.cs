@@ -57,7 +57,7 @@ namespace SummarizeTempsLab
 
                 int average = SumTemps / tempcount;
 
-                Console.WriteLine("Average temp = " + average);
+                Console.WriteLine("Average temperature = " + average);
                  
             }
             else
